@@ -27,8 +27,7 @@ counter = 0
 for arr2 in an_array
 if arr2.is_a? Fixnum
 counter += arr2
-end
-if arr2.is_a? Float
+elsif arr2.is_a? Float
 counter += arr2
 end
 end
